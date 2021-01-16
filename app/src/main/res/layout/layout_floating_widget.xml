@@ -32,8 +32,9 @@
                 android:id="@+id/buttonClose"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="50dp"
-                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+                android:layout_marginStart="50dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:contentDescription="@string/close_window" />
         </RelativeLayout>
 
         <!-- this is the expanded layout -->
@@ -65,7 +66,7 @@
                     android:paddingLeft="15dp"
                     android:paddingTop="15dp"
                     android:paddingRight="15dp"
-                    android:text="Simplified Coding"
+                    android:text="@string/floating_action_window_demo"
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                     android:textColor="#ffffff"
@@ -74,7 +75,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="www.simplifiedcoding.net"
+                    android:text="@string/email"
                     android:textAlignment="center"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#ffffff"

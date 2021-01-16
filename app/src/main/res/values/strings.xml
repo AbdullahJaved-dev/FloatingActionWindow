@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">FloatingActionWindowDemo</string>
+    <string name="close_window">Close Window</string>
+    <string name="floating_action_window_demo">Floating Action Window Demo</string>
+    <string name="email">abdullahjaved@devhouse.co</string>
 </resources>
